@@ -1,0 +1,50 @@
+<md-dialog aria-label="Add Event" ng-controller="final">
+    <form ng-cloak>
+        <md-toolbar>
+            <div class="md-toolbar-tools">
+                <h2>Add Event</h2>
+                <span flex></span>
+                <md-button class="md-icon-button" ng-click="cancel()">
+                    <md-icon md-svg-src="img/icons/ic_close_24px.svg" aria-label="Close dialog"></md-icon>
+                </md-button>
+            </div>
+        </md-toolbar>
+
+        <md-dialog-content>
+            <div class="md-dialog-content">
+                <md-content layout="row" flex style="overflow: visible">
+
+                    <md-card flex layout="column" layout-align="center center">
+                        <span class="md-headline">Add Event Time</span>
+                        <md-time-picker ng-model="twelveTimeStart" message="message"></md-time-picker>
+
+                    </md-card>
+
+
+                </md-content>
+
+
+
+
+                <md-input-container class="md-block" flex-gt-sm>
+                    <label>Enter Event</label>
+                    <input ng-model="eventName">
+                </md-input-container>
+
+            </div>
+        </md-dialog-content>
+
+        <md-dialog-actions layout="row">
+
+            <span flex></span>
+
+            <md-button ng-click="answer(twelveTimeStart,twelveTimeEnd,eventName)">
+                Save
+            </md-button>
+
+            <md-button ng-click="reset()">
+                Reset
+            </md-button>
+        </md-dialog-actions>
+    </form>
+</md-dialog>

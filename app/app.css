@@ -1,0 +1,126 @@
+/* app css stylesheet */
+
+
+.menu {
+  list-style: none;
+  border-bottom: 0.1em solid black;
+  margin-bottom: 2em;
+  padding: 0 0 0.5em;
+}
+
+.menu:before {
+  content: "[";
+}
+
+.menu:after {
+  content: "]";
+}
+
+.menu > li {
+  display: inline;
+}
+
+.menu > li + li:before {
+  content: "|";
+  padding-right: 0.3em;
+}
+.datepickerdemoCalendar {
+  /** Demo styles for mdCalendar. */ }
+.datepickerdemoCalendar label {
+  font-size: x-small; }
+
+.demo-non-form {
+  color: initial;
+  width: 100%;
+  padding: 10px;
+  margin: 6px 0 12px 0;
+  border: 1px solid #ccc;
+  border-radius: 0;
+  font-family: arial, verdana, sans-serif;
+  font-size: 14px;
+  box-sizing: border-box;
+  -webkit-appearance: none;
+}
+
+.external-container button.external-button {
+  font-weight: 400;
+  padding: 10px;
+  margin: 6px 0 13px 0;
+  width: 100%;
+}
+
+.container1{
+  background-image: url("./background2.jpeg");
+  /*background: inherit;*/
+  /*background-size:100%;*/
+  /*background-repeat: no-repeat;*/
+  /*background-attachment: fixed;*/
+  /*!*background-position: center;*!*/
+  /*margin: 0;*/
+  /*padding: 0;*/
+  background-size: cover;
+  background-repeat:no-repeat;
+  background-position:center;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+  -ms-content-zooming: none;
+  position:absolute;
+  width:100%;
+  height:0%;
+  overflow: scroll;
+  font-family: 'Scout', arial, sans-serif;
+  background-attachment: fixed;
+}
+
+
+#countdown {
+  font-family: sans-serif;
+  color: #fff;
+  display: inline-block;
+  font-weight: 100;
+  text-align: center;
+  font-size: 30px;
+}
+
+#countdown > div{
+  padding: 10px;
+  border-radius: 8px;
+  background: #00BF96;
+  display: inline-block;
+}
+
+#countdown div > span{
+  padding: 15px;
+  border-radius: 50%;
+  background: #00816A;
+  display: inline-block;
+}
+
+.label{
+  padding-top: 5px;
+  font-size: 16px;
+}
+
+.container2:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.container2:before {
+  box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5);
+  box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5);
+  filter: blur(10px);
+}
+
+.container2 {
+  background: inherit;
+}
+
+.container2:before {
+  background: inherit;
+}
