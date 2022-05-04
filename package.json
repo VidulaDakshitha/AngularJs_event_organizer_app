@@ -8,7 +8,7 @@
   "dependencies": {
     "@angular/material": "^9.2.1",
     "add": "^2.0.6",
-    "angular": "^1.7.5",
+    "angular": "^1.8.3",
     "angular-loader": "^1.7.5",
     "angular-material": "http://github.com/angular/bower-material/tarball/master",
     "angular-material-time-picker": "^1.0.8",
